@@ -1,0 +1,222 @@
+{	
+	"text bold": {
+		"prefix": "tb",
+		"body": [
+			"\\textbf{$1}"
+		],
+		"description": "Insert bold text"
+	},
+	"Inline Equation": {
+		"prefix": "ineq",
+		"body": [
+			"\\$$1\\$"
+		],
+		"description": "Insert an inline equation"
+	},
+	"Inline Equation (textstyle)": {
+		"prefix": "tsineq",
+		"body": [
+			"\\$\\textstyle $1\\$"
+		],
+		"description": "Insert an inline equation as textstyle"
+	},
+	"Equation Block (label)": {
+		"prefix": "eqblock",
+		"body": [
+			"\\begin{equation}",
+			"\t$1",
+			"\\end{equation}"
+		],
+		"description": "Insert a block equation"
+	},
+	"Equation Block (no label)": {
+		"prefix": "eqblocknl",
+		"body": [
+			"\\begin{equation*}",
+			"\t$1",
+			"\\end{equation*}"
+		],
+		"description": "Insert a block equation without label"
+	},
+	"Align Block": {
+		"prefix": "alignblock",
+		"body": [
+			"\\begin{align}",
+			"\t$1",
+			"\\end{align}"
+		],
+		"description": "Insert an align block"
+	},
+	"Align Block (no label)": {
+		"prefix": "alignblocknl",
+		"body": [
+			"\\begin{align*}",
+			"\t$1",
+			"\\end{align*}"
+		],
+		"description": "Insert an align block without label"
+	},
+	"Fraction": {
+		"prefix": "frac",
+		"body": [
+			"\\frac{$1}{$2}"
+		],
+		"description": "Insert a fraction"
+	},
+	"Small Summation": {
+		"prefix": "ssum",
+		"body": [
+			"\\textstyle \\sum_{i=1}^n $1"
+		],
+		"description": "Insert a summation"
+	
+	},
+	"Basic Summation": {
+		"prefix": "sum",
+		"body": [
+			"\\sum_{i=1}^n $1"
+		],
+		"description": "Insert a summation"
+	
+	},
+	"Custom Summation": {
+		"prefix": "csum",
+		"body": [
+			"\\(\\sum_{$1}^$2 $3\\)"
+		],
+		"description": "Insert a summation"
+	
+	},
+	"Sequence in R (var)": {
+		"prefix": "seqinR",
+		"body": [
+			"\\($1_1, \\ldots, $2_n \\in \\mathbb{R}$3\\)",
+		],
+		"description": "Insert equation for x_1, ..., x_n in R"
+	},
+	"Sequence in R (X)": {
+		"prefix": "XnX",
+		"body": [
+			"\\(X_1, \\ldots, X_n \\in \\mathbb{R}\\)",
+		],
+		"description": "Insert equation for x_1, ..., x_n in R"
+	},
+	"Sequence in R (x)": {
+		"prefix": "xnx",
+		"body": [
+			"\\(x_1, \\ldots, x_n \\in \\mathbb{R}\\)",
+		],
+		"description": "Insert equation for x_1, ..., x_n in R"
+	},
+	"Sequence in R (y)": {
+		"prefix": "yny",
+		"body": [
+			"\\(y_1, \\ldots, y_n \\in \\mathbb{R}\\)",
+		],
+		"description": "Insert equation for y_1, ..., y_n in R"
+	},
+	"Clear Page": {
+		"prefix": "cp",
+		"body": [
+			"\\clearpage"
+		],
+		"description": "Insert a clear page"
+	},
+	"Sequence in R (z)": {
+		"prefix": "znz",
+		"body": [
+			"\\(z_1, \\ldots, z_n \\in \\mathbb{R}\\)",
+		],
+		"description": "Insert equation for z_1, ..., z_n in R"
+	},
+	"Sequence in R (w)": {
+		"prefix": "wnw",
+		"body": [
+			"\\(w_1, \\ldots, w_n \\in \\mathbb{R}\\)",
+		],
+		"description": "Insert equation for w_1, ..., w_n in R"
+	},
+	"Section": {
+		"prefix": "section",
+		"body": [
+			"\\section{$1}"
+		],
+		"description": "Insert a section"
+	},
+	"Subsection": {
+		"prefix": "subsection",
+		"body": [
+			"\\subsection{$1}"
+		],
+		"description": "Insert a subsection"
+	},
+	"Enumerated Items (1)": {
+		"prefix": "enum1",
+		"body": [
+			"\\begin{enumerate}",
+			"    \\item $1",
+			"\\end{enumerate}"
+		],
+		"description": "Insert an enumerated list with one item"
+	},
+	"Enumerated Items (2)": {
+		"prefix": "enum2",
+		"body": [
+			"\\begin{enumerate}",
+			"    \\item $1",
+			"    \\item $2",
+			"\\end{enumerate}"
+		],
+		"description": "Insert an enumerated list with two item"
+	},
+	"Enumerated Items (3)": {
+		"prefix": "enum3",
+		"body": [
+			"\\begin{enumerate}",
+			"    \\item $1",
+			"    \\item $2",
+			"    \\item $3",
+			"\\end{enumerate}"
+		],
+		"description": "Insert an enumerated list with three item"
+	},
+	"Enumerated Items (4)": {
+		"prefix": "enum4",
+		"body": [
+			"\\begin{enumerate}",
+			"    \\item $1",
+			"    \\item $2",
+			"    \\item $3",
+			"    \\item $4",
+			"\\end{enumerate}"
+		],
+		"description": "Insert an enumerated list with four item"
+	},
+	"Enumerated Items (5)": {
+		"prefix": "enum5",
+		"body": [
+			"\\begin{enumerate}",
+			"    \\item $1",
+			"    \\item $2",
+			"    \\item $3",
+			"    \\item $4",
+			"    \\item $5",
+			"\\end{enumerate}"
+		],
+		"description": "Insert an enumerated list with five item"
+	},
+	"Enumerated Items (6)": {
+		"prefix": "enum6",
+		"body": [
+			"\\begin{enumerate}",
+			"    \\item $1",
+			"    \\item $2",
+			"    \\item $3",
+			"    \\item $4",
+			"    \\item $5",
+			"    \\item $6",
+			"\\end{enumerate}"
+		],
+		"description": "Insert an enumerated list with six item"
+	}
+}
